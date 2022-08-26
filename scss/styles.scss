@@ -1,6 +1,2 @@
-h1 {
-    color: blue;
-}
-body {
-    background-color: black;
-}
+@import "./variables";
+@import "../node_modules/bootstrap/scss/bootstrap"
