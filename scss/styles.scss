@@ -1,2 +1,30 @@
 @import "./variables";
-@import "../node_modules/bootstrap/scss/bootstrap"
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.login-screen-bg {
+    background-image: url("/resources/graphic-bg.png");
+    background-size: 100%;
+}
+
+* {
+    color: $text-primary;
+    font-family: 'Abel', sans-serif;
+}
+
+.btn {
+    background-color: $custom-btn;
+    border-radius: $custom-border;
+    width: 100%;
+    color: $text-primary;   
+}
+
+.form-control {
+    border-radius: $custom-border;
+}
+
+nav {
+    .nav-search-btn  {
+        margin-left: 1rem;
+    }
+}
+

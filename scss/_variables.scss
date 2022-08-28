@@ -1,9 +1,9 @@
 
-$primary:       #E0E0E0;
-$secondary:     red;
-$success:       green;
-$info:          yellow;
-$warning:       cyan;
-$danger:        orange;
-$light:         indigo;
-$dark:          black;
+$text-primary:  #ffffff;
+
+$custom-btn: #0065EC;
+$custom-border: 2px;
+
+$primary: #1C529A;
+$secondary: #E0E0E0;
+@import "../node_modules/bootstrap/scss/bootstrap";
