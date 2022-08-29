@@ -1,9 +1,9 @@
 @import "./variables";
-@import "../node_modules/bootstrap/scss/bootstrap";
+
 
 .login-screen-bg {
-    background-image: url("/resources/graphic-bg.png");
-    background-size: 100%;
+    background-image: url("/resources/graphic-bg.jpg");
+    background-size: 150%;
 }
 
 * {
@@ -15,7 +15,7 @@
     background-color: $custom-btn;
     border-radius: $custom-border;
     width: 100%;
-    color: $text-primary;   
+    color: $custom-btn-text;   
 }
 
 .form-control {
@@ -23,8 +23,20 @@
 }
 
 nav {
-    .nav-search-btn  {
-        margin-left: 1rem;
+    color: $text-primary;
+
+    .nav-link {
+        color: black;
     }
 }
 
+.logo-container {
+
+ .login-logo {
+    width: 50px;
+    margin-right: 1rem;
+ }
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";

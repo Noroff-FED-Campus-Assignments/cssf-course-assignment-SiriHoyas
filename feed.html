@@ -4,14 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Society</title>
+    <title>Pawstagram</title>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-primary">
-      <div class="container">
-        <a class="navbar-brand" href="#">Society</a>
+    <nav class="nav p-2 bg-primary d-flex justify-content-between">
+      <div class="logo-container d-flex align-items-center justify-content-center">
+        <img class="login-logo" src="/resources/logo.png" alt="Pawstagram logo" />
+        <h1 class="m-0 ml-5">PAWSTAGRAM</h1>
+      </div>
+      <div class="nav-items-container d-flex align-items-center">
+        <a class="nav-link" href="">Home</a>
+        <a class="nav-link" href="">Profile</a>
       </div>
     </nav>
+
+    <main class="main-feed-container container row mx-auto">
+      <section class="feed-container container bg-primary vh-100 col">
+        <div class="card w-50">
+          <div class="profile-info-container">
+            <img src="" alt="" />
+            <p>Name</p>
+          </div>
+          <div class="content-container">
+            <img src="" alt="" />
+            <div class="likes-container">
+              <img src="" alt="" />
+              <p>109</p>
+            </div>
+            <p>Caption</p>
+          </div>
+        </div>
+      </section>
+      <section class="new-post-container container bg-primary vh-100 col"></section>
+    </main>
   </body>
 </html>
