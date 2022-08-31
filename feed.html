@@ -7,124 +7,24 @@
     <title>Pawstagram</title>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
-  <body class="feed-body">
-    <nav class="nav fixed-top p-2 bg-primary d-flex justify-content-between mb-5">
-      <div class="logo-container d-flex align-items-center justify-content-center">
-        <img class="login-logo" src="/resources/logo.png" alt="Pawstagram logo" />
-        <h1 class="m-0 ml-5">PAWSTAGRAM</h1>
-      </div>
-      <div class="nav-items-container d-flex align-items-center">
-        <a class="nav-link" href="">Home</a>
-        <a class="nav-link" href="">Profile</a>
+  <body>
+    <nav class="nav p-2 bg-primary d-flex justify-content-between mb-3">
+      <div class="container-fluid row mx-auto">
+        <div class="logo-container col d-flex align-items-center">
+          <a href="/index.html"><img class="login-logo" src="/resources/logo.png" alt="Pawstagram logo" /></a>
+          <h1 class="m-0 ml-5">PAWSTAGRAM</h1>
+        </div>
+        <div class="nav-items-container col d-flex align-items-center justify-content-end">
+          <a class="nav-link" href="/feed.html">Home</a>
+          <a class="nav-link" href="/profile.html">Profile</a>
+        </div>
       </div>
     </nav>
-
-    <main class="main-feed-container container row mx-auto mt-5">
-      <section class="feed-container container col mt-5">
-        <div class="container">
-          <div class="card row w-100 mb-5 p-2">
-            <div class="d-flex flex-row align-items-center mb-3">
-              <div class=""><img src="/resources/pjusksink.jpg" class="profile-img" alt="" /></div>
-              <div class="">Navn</div>
-            </div>
-            <div class="feedbilde mb-2"><img class="w-100" src="/resources/pia.jpg" alt="" /></div>
-            <div class="row mb-3">
-              <div class="likes-container d-flex align-items-center">
-                <svg class="like-btn" xmlns="http://www.w3.org/2000/svg" width="35.5" height="31.026" viewBox="0 0 35.5 31.026">
-                  <g id="pawprint_1_" data-name="pawprint (1)" transform="translate(0)">
-                    <path id="Path_13" data-name="Path 13" d="M83.729,185.929a8.644,8.644,0,0,0-14.555,0l-3.849,6a5.471,5.471,0,0,0,6.808,7.961l.071-.031a10.756,10.756,0,0,1,8.566.031,5.441,5.441,0,0,0,2.2.465,5.511,5.511,0,0,0,1.225-.139,5.472,5.472,0,0,0,3.389-8.287Zm1.82,11.161a3.371,3.371,0,0,1-3.942.9,12.84,12.84,0,0,0-10.311,0l-.047.021a3.39,3.39,0,0,1-4.174-4.953l3.849-6a6.563,6.563,0,0,1,11.051,0l3.849,6A3.371,3.371,0,0,1,85.549,197.09Zm0,0" transform="translate(-59.99 -169.334)" />
-                    <path id="Path_14" data-name="Path 14" d="M6.371,108.626a4.2,4.2,0,0,0,2.45-2.6,5.422,5.422,0,0,0-.1-3.739,5.426,5.426,0,0,0-2.436-2.837,4.2,4.2,0,0,0-3.558-.287c-2.3.884-3.355,3.727-2.353,6.337a5.069,5.069,0,0,0,4.559,3.39A3.974,3.974,0,0,0,6.371,108.626Zm-4.05-3.871a2.744,2.744,0,0,1,1.158-3.648,1.931,1.931,0,0,1,.7-.128,2.347,2.347,0,0,1,1.12.3,3.342,3.342,0,0,1,1.488,1.757,3.34,3.34,0,0,1,.074,2.3,2.152,2.152,0,0,1-1.233,1.346h0A2.743,2.743,0,0,1,2.321,104.754Zm0,0" transform="translate(0 -92.038)" />
-                    <path id="Path_15" data-name="Path 15" d="M129.628,11.883c2.875,0,5.215-2.665,5.215-5.941S132.5,0,129.628,0s-5.214,2.666-5.214,5.942S126.753,11.883,129.628,11.883Zm0-9.8c1.728,0,3.134,1.732,3.134,3.861s-1.406,3.86-3.134,3.86-3.133-1.732-3.133-3.86S127.9,2.081,129.628,2.081Zm0,0" transform="translate(-115.788)" />
-                    <path id="Path_16" data-name="Path 16" d="M287.336,50.806h0a4.25,4.25,0,0,0,1.343.217,5.4,5.4,0,0,0,4.92-3.872,5.826,5.826,0,0,0-.083-4.02,4.408,4.408,0,0,0-6.535-2.172,5.826,5.826,0,0,0-2.472,3.17C283.562,46.978,284.83,49.973,287.336,50.806Zm-.853-6.02a3.747,3.747,0,0,1,1.576-2.046,2.332,2.332,0,0,1,3.528,1.172,3.747,3.747,0,0,1,.037,2.582c-.585,1.759-2.214,2.808-3.632,2.337S285.9,46.545,286.483,44.786Zm0,0" transform="translate(-264.49 -37.463)" />
-                    <path id="Path_17" data-name="Path 17" d="M384.441,171.843h0c-1.983-1.465-4.948-.83-6.611,1.416s-1.4,5.268.579,6.733a4.077,4.077,0,0,0,2.448.791,5.271,5.271,0,0,0,4.163-2.205C386.681,176.33,386.421,173.309,384.441,171.843Zm-1.094,5.5A2.451,2.451,0,1,1,379.5,174.5a3.194,3.194,0,0,1,2.478-1.368,2.033,2.033,0,0,1,1.224.389A2.746,2.746,0,0,1,383.347,177.339Zm0,0" transform="translate(-350.614 -159.194)" />
-                  </g>
-                </svg>
-                <div class="">109</div>
-              </div>
-            </div>
-            <p>#newprofilepic</p>
-          </div>
-          <div class="card row w-100 h-50 mb-5 p-2">
-            <div class="d-flex flex-row align-items-center mb-3">
-              <div class=""><img src="/resources/pjusksink.jpg" class="profile-img" alt="" /></div>
-              <div class="">Navn</div>
-            </div>
-            <div class="feedbilde mb-2"><img class="w-100" src="/resources/pia.jpg" alt="" /></div>
-            <div class="row mb-3">
-              <div class="likes-container d-flex align-items-center">
-                <svg class="like-btn" xmlns="http://www.w3.org/2000/svg" width="35.5" height="31.026" viewBox="0 0 35.5 31.026">
-                  <g id="pawprint_1_" data-name="pawprint (1)" transform="translate(0)">
-                    <path id="Path_13" data-name="Path 13" d="M83.729,185.929a8.644,8.644,0,0,0-14.555,0l-3.849,6a5.471,5.471,0,0,0,6.808,7.961l.071-.031a10.756,10.756,0,0,1,8.566.031,5.441,5.441,0,0,0,2.2.465,5.511,5.511,0,0,0,1.225-.139,5.472,5.472,0,0,0,3.389-8.287Zm1.82,11.161a3.371,3.371,0,0,1-3.942.9,12.84,12.84,0,0,0-10.311,0l-.047.021a3.39,3.39,0,0,1-4.174-4.953l3.849-6a6.563,6.563,0,0,1,11.051,0l3.849,6A3.371,3.371,0,0,1,85.549,197.09Zm0,0" transform="translate(-59.99 -169.334)" />
-                    <path id="Path_14" data-name="Path 14" d="M6.371,108.626a4.2,4.2,0,0,0,2.45-2.6,5.422,5.422,0,0,0-.1-3.739,5.426,5.426,0,0,0-2.436-2.837,4.2,4.2,0,0,0-3.558-.287c-2.3.884-3.355,3.727-2.353,6.337a5.069,5.069,0,0,0,4.559,3.39A3.974,3.974,0,0,0,6.371,108.626Zm-4.05-3.871a2.744,2.744,0,0,1,1.158-3.648,1.931,1.931,0,0,1,.7-.128,2.347,2.347,0,0,1,1.12.3,3.342,3.342,0,0,1,1.488,1.757,3.34,3.34,0,0,1,.074,2.3,2.152,2.152,0,0,1-1.233,1.346h0A2.743,2.743,0,0,1,2.321,104.754Zm0,0" transform="translate(0 -92.038)" />
-                    <path id="Path_15" data-name="Path 15" d="M129.628,11.883c2.875,0,5.215-2.665,5.215-5.941S132.5,0,129.628,0s-5.214,2.666-5.214,5.942S126.753,11.883,129.628,11.883Zm0-9.8c1.728,0,3.134,1.732,3.134,3.861s-1.406,3.86-3.134,3.86-3.133-1.732-3.133-3.86S127.9,2.081,129.628,2.081Zm0,0" transform="translate(-115.788)" />
-                    <path id="Path_16" data-name="Path 16" d="M287.336,50.806h0a4.25,4.25,0,0,0,1.343.217,5.4,5.4,0,0,0,4.92-3.872,5.826,5.826,0,0,0-.083-4.02,4.408,4.408,0,0,0-6.535-2.172,5.826,5.826,0,0,0-2.472,3.17C283.562,46.978,284.83,49.973,287.336,50.806Zm-.853-6.02a3.747,3.747,0,0,1,1.576-2.046,2.332,2.332,0,0,1,3.528,1.172,3.747,3.747,0,0,1,.037,2.582c-.585,1.759-2.214,2.808-3.632,2.337S285.9,46.545,286.483,44.786Zm0,0" transform="translate(-264.49 -37.463)" />
-                    <path id="Path_17" data-name="Path 17" d="M384.441,171.843h0c-1.983-1.465-4.948-.83-6.611,1.416s-1.4,5.268.579,6.733a4.077,4.077,0,0,0,2.448.791,5.271,5.271,0,0,0,4.163-2.205C386.681,176.33,386.421,173.309,384.441,171.843Zm-1.094,5.5A2.451,2.451,0,1,1,379.5,174.5a3.194,3.194,0,0,1,2.478-1.368,2.033,2.033,0,0,1,1.224.389A2.746,2.746,0,0,1,383.347,177.339Zm0,0" transform="translate(-350.614 -159.194)" />
-                  </g>
-                </svg>
-                <div class="">109</div>
-              </div>
-            </div>
-            <p>#newprofilepic</p>
-          </div>
-          <div class="card row w-100 h-50 mb-5 p-2">
-            <div class="d-flex flex-row align-items-center mb-3">
-              <div class=""><img src="/resources/pjusksink.jpg" class="profile-img" alt="" /></div>
-              <div class="">Navn</div>
-            </div>
-            <div class="feedbilde mb-2"><img class="w-100" src="/resources/pia.jpg" alt="" /></div>
-            <div class="row mb-3">
-              <div class="likes-container d-flex align-items-center">
-                <svg class="like-btn" xmlns="http://www.w3.org/2000/svg" width="35.5" height="31.026" viewBox="0 0 35.5 31.026">
-                  <g id="pawprint_1_" data-name="pawprint (1)" transform="translate(0)">
-                    <path id="Path_13" data-name="Path 13" d="M83.729,185.929a8.644,8.644,0,0,0-14.555,0l-3.849,6a5.471,5.471,0,0,0,6.808,7.961l.071-.031a10.756,10.756,0,0,1,8.566.031,5.441,5.441,0,0,0,2.2.465,5.511,5.511,0,0,0,1.225-.139,5.472,5.472,0,0,0,3.389-8.287Zm1.82,11.161a3.371,3.371,0,0,1-3.942.9,12.84,12.84,0,0,0-10.311,0l-.047.021a3.39,3.39,0,0,1-4.174-4.953l3.849-6a6.563,6.563,0,0,1,11.051,0l3.849,6A3.371,3.371,0,0,1,85.549,197.09Zm0,0" transform="translate(-59.99 -169.334)" />
-                    <path id="Path_14" data-name="Path 14" d="M6.371,108.626a4.2,4.2,0,0,0,2.45-2.6,5.422,5.422,0,0,0-.1-3.739,5.426,5.426,0,0,0-2.436-2.837,4.2,4.2,0,0,0-3.558-.287c-2.3.884-3.355,3.727-2.353,6.337a5.069,5.069,0,0,0,4.559,3.39A3.974,3.974,0,0,0,6.371,108.626Zm-4.05-3.871a2.744,2.744,0,0,1,1.158-3.648,1.931,1.931,0,0,1,.7-.128,2.347,2.347,0,0,1,1.12.3,3.342,3.342,0,0,1,1.488,1.757,3.34,3.34,0,0,1,.074,2.3,2.152,2.152,0,0,1-1.233,1.346h0A2.743,2.743,0,0,1,2.321,104.754Zm0,0" transform="translate(0 -92.038)" />
-                    <path id="Path_15" data-name="Path 15" d="M129.628,11.883c2.875,0,5.215-2.665,5.215-5.941S132.5,0,129.628,0s-5.214,2.666-5.214,5.942S126.753,11.883,129.628,11.883Zm0-9.8c1.728,0,3.134,1.732,3.134,3.861s-1.406,3.86-3.134,3.86-3.133-1.732-3.133-3.86S127.9,2.081,129.628,2.081Zm0,0" transform="translate(-115.788)" />
-                    <path id="Path_16" data-name="Path 16" d="M287.336,50.806h0a4.25,4.25,0,0,0,1.343.217,5.4,5.4,0,0,0,4.92-3.872,5.826,5.826,0,0,0-.083-4.02,4.408,4.408,0,0,0-6.535-2.172,5.826,5.826,0,0,0-2.472,3.17C283.562,46.978,284.83,49.973,287.336,50.806Zm-.853-6.02a3.747,3.747,0,0,1,1.576-2.046,2.332,2.332,0,0,1,3.528,1.172,3.747,3.747,0,0,1,.037,2.582c-.585,1.759-2.214,2.808-3.632,2.337S285.9,46.545,286.483,44.786Zm0,0" transform="translate(-264.49 -37.463)" />
-                    <path id="Path_17" data-name="Path 17" d="M384.441,171.843h0c-1.983-1.465-4.948-.83-6.611,1.416s-1.4,5.268.579,6.733a4.077,4.077,0,0,0,2.448.791,5.271,5.271,0,0,0,4.163-2.205C386.681,176.33,386.421,173.309,384.441,171.843Zm-1.094,5.5A2.451,2.451,0,1,1,379.5,174.5a3.194,3.194,0,0,1,2.478-1.368,2.033,2.033,0,0,1,1.224.389A2.746,2.746,0,0,1,383.347,177.339Zm0,0" transform="translate(-350.614 -159.194)" />
-                  </g>
-                </svg>
-                <div class="">109</div>
-              </div>
-            </div>
-            <p>#newprofilepic</p>
-          </div>
-      </section>
-      <section class="feed-container container col mt-5">
-        <div class="d-flex justify-content-end">
-          <div class="card h-75 w-75 p-4">
-            <div class="d-flex flex-row align-items-center mb-3">
-              <div class=""><img src="/resources/pjusksink.jpg" class="profile-img" alt="" /></div>
-              <div class="">Navn</div>
-            </div>
-            <h4>Share a picture!</h4>
-            <div class="d-flex">
-            <svg class="add-picture-svg" id="add_1_" data-name="add (1)" xmlns="http://www.w3.org/2000/svg" width="49.318" height="49.318" viewBox="0 0 49.318 49.318">
-              <g id="Group_22" data-name="Group 22">
-                <g id="Group_21" data-name="Group 21">
-                  <path id="Path_11" data-name="Path 11" d="M40.511,0H8.807A8.817,8.817,0,0,0,0,8.807v31.7a8.817,8.817,0,0,0,8.807,8.807h31.7a8.817,8.817,0,0,0,8.807-8.807V8.807A8.817,8.817,0,0,0,40.511,0ZM45.8,40.511A5.284,5.284,0,0,1,40.511,45.8H8.807a5.284,5.284,0,0,1-5.284-5.284V8.807A5.284,5.284,0,0,1,8.807,3.523h31.7A5.284,5.284,0,0,1,45.8,8.807Z"/>
-                </g>
-              </g>
-              <g id="Group_24" data-name="Group 24" transform="translate(14.091 14.091)">
-                <g id="Group_23" data-name="Group 23">
-                  <path id="Path_12" data-name="Path 12" d="M155.908,145.34h-7.046v-7.046a1.761,1.761,0,0,0-3.523,0v7.046h-7.045a1.761,1.761,0,1,0,0,3.523h7.046v7.046a1.761,1.761,0,1,0,3.523,0v-7.046h7.046a1.761,1.761,0,1,0,0-3.523Z" transform="translate(-136.533 -136.533)"/>
-                </g>
-              </g>
-            </svg>
-            <p>Add image</p>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Add caption</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <button type="submit" class="btn btn-primary mt-2">Submit</button>
-          </div>
-          <form class="d-flex form-inline mt-5 justify-content-between">
-            <input class="w-75 form-control" type="search" placeholder="Search" aria-label="Search">
-            <button class="w-25 btn btn-primary search-btn" type="submit">Search</button>
-          </form>
-            
-          </div>
-        </div>
-      </section>
+    <main>
+      <div class="row w-100 mx-auto">
+        <section class="test1 vh-100 col-sm order-2 col-12">1 - Feed</section>
+        <section class="test2 vh-100 col-sm order-sm-2 col-12">2 - Add Post</section>
+      </div>
     </main>
   </body>
 </html>

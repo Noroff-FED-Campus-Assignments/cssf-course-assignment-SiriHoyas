@@ -4,22 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pawstagram</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <nav class="nav p-2 bg-primary d-flex justify-content-between">
-      <div class="logo-container d-flex align-items-center justify-content-center">
-        <img class="login-logo" src="/resources/logo.png" alt="Pawstagram logo" />
-        <h1 class="m-0 ml-5">PAWSTAGRAM</h1>
-      </div>
-      <div class="nav-items-container d-flex align-items-center">
-        <a class="nav-link" href="">Home</a>
-        <a class="nav-link" href="">Profile</a>
+    <nav class="nav p-2 bg-primary d-flex justify-content-between mb-3">
+      <div class="container-fluid row mx-auto">
+        <div class="logo-container col d-flex align-items-center">
+          <a href="/index.html"><img class="login-logo" src="/resources/logo.png" alt="Pawstagram logo" /></a>
+          <h1 class="m-0 ml-5">PAWSTAGRAM</h1>
+        </div>
+        <div class="nav-items-container col d-flex align-items-center justify-content-end">
+          <a class="nav-link" href="/feed.html">Home</a>
+          <a class="nav-link" href="/profile.html">Profile</a>
+        </div>
       </div>
     </nav>
+    <main class="row w-100 mx-auto">
+      <section class="col-md-3 col-12 vh-100 test1">1 - Profile info</section>
+      <section class="col-md-6 col-12 vh-100 test2">2 - Posts</section>
+      <section class="col-md-3 col-12 vh-100 test3">3 - List of contacts</section>
+    </main>
   </body>
 </html>

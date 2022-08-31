@@ -1,23 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="card row w-25 h-50 mb-3 p-2">
+<main class="main-feed-container container row mx-auto mt-5">
+  <section class="col-sm-12 feed-container container  mt-5">
+    <div class="container feed-posts">
+     
+      <div class="card row w-100 h-50 mb-5 p-2">
         <div class="d-flex flex-row align-items-center mb-3">
-          <div class=""><img src="/resources/pjusksink.jpg" class="profile-img" alt="" /></div>
-          <div class="">Navn</div>
+          <div class=""><img src="/resources/pjusk1.jpg" class="profile-img" alt="" /></div>
+          <div class="">ThePjusk</div>
         </div>
-        <div class="feedbilde mb-2"><img class="w-100" src="/resources/pia.jpg" alt="" /></div>
+        <div class="feed-photo mb-2"><img class="w-100" src="/resources/pjusk2.png" alt="" /></div>
         <div class="row mb-3">
           <div class="likes-container d-flex align-items-center">
             <svg class="like-btn" xmlns="http://www.w3.org/2000/svg" width="35.5" height="31.026" viewBox="0 0 35.5 31.026">
@@ -29,25 +19,46 @@
                 <path id="Path_17" data-name="Path 17" d="M384.441,171.843h0c-1.983-1.465-4.948-.83-6.611,1.416s-1.4,5.268.579,6.733a4.077,4.077,0,0,0,2.448.791,5.271,5.271,0,0,0,4.163-2.205C386.681,176.33,386.421,173.309,384.441,171.843Zm-1.094,5.5A2.451,2.451,0,1,1,379.5,174.5a3.194,3.194,0,0,1,2.478-1.368,2.033,2.033,0,0,1,1.224.389A2.746,2.746,0,0,1,383.347,177.339Zm0,0" transform="translate(-350.614 -159.194)" />
               </g>
             </svg>
-            <div class="">109</div>
+            <div class="">1093</div>
           </div>
         </div>
-        <p>#newprofilepic</p>
+        <p>Paint me like one of your french kitties</p>
       </div>
-
-      <div class="card feed-card row w-25 h-50 mb-3">
-        <div class="profilbilde">Bilde</div>
-        <div class="navn">Navn</div>
-        <p>Tekst tekst</p>
-        <div class="feedbilde"><img class="w-100" src="/resources/pia.jpg" alt="" /></div>
+  </section>
+  <section class="feed-container container col-sm-12 mt-5">
+    <div class="d-flex justify-content-end">
+      <div class="card h-75 w-75 p-4">
+        <div class="d-flex flex-row align-items-center mb-3">
+          <div class=""><img src="/resources/pjusk1.jpg" class="profile-img" alt="" /></div>
+          <div class="">ThePjusk</div>
+        </div>
+        <h4>Share a picture!</h4>
+        <div class="d-flex">
+        <svg class="add-picture-svg" id="add_1_" data-name="add (1)" xmlns="http://www.w3.org/2000/svg" width="49.318" height="49.318" viewBox="0 0 49.318 49.318">
+          <g id="Group_22" data-name="Group 22">
+            <g id="Group_21" data-name="Group 21">
+              <path id="Path_11" data-name="Path 11" d="M40.511,0H8.807A8.817,8.817,0,0,0,0,8.807v31.7a8.817,8.817,0,0,0,8.807,8.807h31.7a8.817,8.817,0,0,0,8.807-8.807V8.807A8.817,8.817,0,0,0,40.511,0ZM45.8,40.511A5.284,5.284,0,0,1,40.511,45.8H8.807a5.284,5.284,0,0,1-5.284-5.284V8.807A5.284,5.284,0,0,1,8.807,3.523h31.7A5.284,5.284,0,0,1,45.8,8.807Z"/>
+            </g>
+          </g>
+          <g id="Group_24" data-name="Group 24" transform="translate(14.091 14.091)">
+            <g id="Group_23" data-name="Group 23">
+              <path id="Path_12" data-name="Path 12" d="M155.908,145.34h-7.046v-7.046a1.761,1.761,0,0,0-3.523,0v7.046h-7.045a1.761,1.761,0,1,0,0,3.523h7.046v7.046a1.761,1.761,0,1,0,3.523,0v-7.046h7.046a1.761,1.761,0,1,0,0-3.523Z" transform="translate(-136.533 -136.533)"/>
+            </g>
+          </g>
+        </svg>
+        <p>Add image</p>
       </div>
-
-      <div class="card feed-card row w-25 h-50 mb-3">
-        <div class="profilbilde">Bilde</div>
-        <div class="navn">Navn</div>
-        <p>Tekst tekst</p>
-        <div class="feedbilde"><img class="w-100" src="/resources/pia.jpg" alt="" /></div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Add caption</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <button type="submit" class="btn btn-secondary mt-2">Submit</button>
+      </div>
+      <form class="d-flex form-inline mt-5 justify-content-between">
+        <input class="w-75 form-control" type="search" placeholder="Search" aria-label="Search">
+        <button class="w-25 btn btn-secondary search-btn" type="submit">Search</button>
+      </form>
+        
       </div>
     </div>
-  </body>
-</html>
+  </section>
+</main>

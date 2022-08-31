@@ -12,11 +12,11 @@
 }
 
 .btn {
-    background-color: $custom-btn;
     border-radius: $custom-border;
-    width: 100%;
-    color: $custom-btn-text;   
+    width: 100%; 
 }
+
+
 
 .form-control {
     border-radius: $custom-border;
@@ -44,6 +44,7 @@ nav {
     border-radius: 100%;
     border: .1px solid black;
     margin-right: .5rem;
+    object-fit: cover;
 }
 
 svg {
@@ -54,12 +55,30 @@ svg {
 
 .feed-body {
     background-image: url("/resources/Web\ 1920\ –\ 2.png");
-    background-size: 100%
+    background-size: 100%;
+
 }
+
+.feed-photo img {
+    object-fit: contain;
+}
+
 
 .search-btn {
     margin-left: 1rem
 }
+
+.test1 {
+    background-color: aquamarine;
+}
+.test2 {
+    background-color: salmon;
+}
+.test3 {
+    background-color: darkkhaki
+}
+
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
