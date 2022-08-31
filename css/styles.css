@@ -10791,6 +10791,29 @@ nav .nav-link {
   margin-right: 1rem;
 }
 
+.profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 0.1px solid black;
+  margin-right: 0.5rem;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.feed-body {
+  background-image: url("/resources/Web 1920 – 2.png");
+  background-size: 100%;
+}
+
+.search-btn {
+  margin-left: 1rem;
+}
+
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

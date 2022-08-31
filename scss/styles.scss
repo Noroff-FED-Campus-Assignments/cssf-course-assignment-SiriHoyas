@@ -38,5 +38,28 @@ nav {
  }
 }
 
+.profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: .1px solid black;
+    margin-right: .5rem;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    margin-right: .5rem;
+}
+
+.feed-body {
+    background-image: url("/resources/Web\ 1920\ –\ 2.png");
+    background-size: 100%
+}
+
+.search-btn {
+    margin-left: 1rem
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
