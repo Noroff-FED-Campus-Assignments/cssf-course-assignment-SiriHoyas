@@ -1,11 +1,6 @@
 @import "./variables";
 
 
-.login-screen-bg {
-    background-image: url("/resources/graphic-bg.jpg");
-    background-size: 150%;
-}
-
 * {
     color: $text-primary;
     font-family: 'Abel', sans-serif;
@@ -16,10 +11,13 @@
     width: 100%; 
 }
 
-
-
 .form-control {
     border-radius: $custom-border;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
 }
 
 nav {
@@ -34,8 +32,12 @@ nav {
 
  .login-logo {
     width: 50px;
-    margin-right: 1rem;
  }
+}
+
+.login-screen-bg {
+    background-image: url("/resources/graphic-bg.jpg");
+    background-size: 150%;
 }
 
 .profile-img {
@@ -43,17 +45,19 @@ nav {
     height: 30px;
     border-radius: 100%;
     border: .1px solid black;
-    margin-right: .5rem;
     object-fit: cover;
 }
 
-svg {
-    width: 20px;
-    height: 20px;
-    margin-right: .5rem;
+.profile-img-big {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: .1px solid black;
+    object-fit: cover;
 }
 
-.feed-body {
+
+.body-bg {
     background-image: url("/resources/Web\ 1920\ –\ 2.png");
     background-size: 100%;
 
