@@ -10764,24 +10764,19 @@ textarea.form-control-lg {
 }
 
 .btn {
-  border-radius: 2px;
   width: 100%;
+  background-color: #7A69B2 !important;
+  color: #FFFFFF !important;
 }
 
-.form-control {
-  border-radius: 2px;
+.navbar-main {
+  /* mt-5 var ikke nok margin (navbaren lå over innholdet)*/
+  margin-top: 100px !important;
 }
 
 svg {
   width: 20px;
   height: 20px;
-}
-
-nav {
-  color: black;
-}
-nav .nav-link {
-  color: black;
 }
 
 .logo-container .login-logo {
@@ -10796,16 +10791,12 @@ nav .nav-link {
 .profile-img {
   width: 30px;
   height: 30px;
-  border-radius: 100%;
-  border: 0.1px solid black;
   object-fit: cover;
 }
 
 .profile-img-big {
   width: 100px;
   height: 100px;
-  border-radius: 100%;
-  border: 0.1px solid black;
   object-fit: cover;
 }
 
@@ -10816,22 +10807,6 @@ nav .nav-link {
 
 .feed-photo img {
   object-fit: contain;
-}
-
-.search-btn {
-  margin-left: 1rem;
-}
-
-.test1 {
-  background-color: aquamarine;
-}
-
-.test2 {
-  background-color: salmon;
-}
-
-.test3 {
-  background-color: darkkhaki;
 }
 
 /*!
