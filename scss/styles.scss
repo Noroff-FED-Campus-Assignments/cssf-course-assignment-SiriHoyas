@@ -7,25 +7,20 @@
 }
 
 .btn {
-    border-radius: $custom-border;
     width: 100%; 
+    background-color: $custom-btn !important;
+    color: $custom-btn-text !important;
 }
 
-.form-control {
-    border-radius: $custom-border;
+.navbar-main {
+
+    /* mt-5 var ikke nok margin (navbaren lå over innholdet)*/
+    margin-top: 100px !important;
 }
 
 svg {
     width: 20px;
     height: 20px;
-}
-
-nav {
-    color: $text-primary;
-
-    .nav-link {
-        color: black;
-    }
 }
 
 .logo-container {
@@ -43,16 +38,12 @@ nav {
 .profile-img {
     width: 30px;
     height: 30px;
-    border-radius: 100%;
-    border: .1px solid black;
     object-fit: cover;
 }
 
 .profile-img-big {
     width: 100px;
     height: 100px;
-    border-radius: 100%;
-    border: .1px solid black;
     object-fit: cover;
 }
 
@@ -65,21 +56,6 @@ nav {
 
 .feed-photo img {
     object-fit: contain;
-}
-
-
-.search-btn {
-    margin-left: 1rem
-}
-
-.test1 {
-    background-color: aquamarine;
-}
-.test2 {
-    background-color: salmon;
-}
-.test3 {
-    background-color: darkkhaki
 }
 
 
