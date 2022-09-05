@@ -1,0 +1,88 @@
+@import "./variables";
+
+
+* {
+    color: $text-primary;
+    font-family: 'Abel', sans-serif;
+}
+
+.btn {
+    border-radius: $custom-border;
+    width: 100%; 
+}
+
+.form-control {
+    border-radius: $custom-border;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+nav {
+    color: $text-primary;
+
+    .nav-link {
+        color: black;
+    }
+}
+
+.logo-container {
+
+ .login-logo {
+    width: 50px;
+ }
+}
+
+.login-screen-bg {
+    background-image: url("/resources/graphic-bg.jpg");
+    background-size: 150%;
+}
+
+.profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: .1px solid black;
+    object-fit: cover;
+}
+
+.profile-img-big {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: .1px solid black;
+    object-fit: cover;
+}
+
+
+.body-bg {
+    background-image: url("/resources/Web\ 1920\ –\ 2.png");
+    background-size: 100%;
+
+}
+
+.feed-photo img {
+    object-fit: contain;
+}
+
+
+.search-btn {
+    margin-left: 1rem
+}
+
+.test1 {
+    background-color: aquamarine;
+}
+.test2 {
+    background-color: salmon;
+}
+.test3 {
+    background-color: darkkhaki
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+

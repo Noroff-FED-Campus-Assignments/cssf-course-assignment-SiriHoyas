@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pawstagram</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid h-100">
+      <div class="row">
+        <div class="col col-7 vh-100 login-screen-bg d-none d-md-flex"></div>
+        <div class="col vh-100 bg-primary">
+          <div class="container w-75 mt-5">
+            <div class="logo-container d-flex align-items-center justify-content-center mb-5">
+              <img class="login-logo" src="/resources/logo.png" alt="Pawstagram logo" />
+              <h1 class="m-0 ml-5">PAWSTAGRAM</h1>
+            </div>
+            <h2>Welcome back!</h2>
+            <p>Log in to your existing account.</p>
+            <p>Dont have one yet? Become a member <a>here</a></p>
+            <form>
+              <div class="form-group mb-3 mt-5">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+              </div>
+              <div class="form-group mb-3">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+              </div>
+              <div class="form-check mb-5">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1">Stay logged in</label>
+              </div>
+              <a href="feed.html" type="submit" class="btn btn-secondary">LOG IN</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

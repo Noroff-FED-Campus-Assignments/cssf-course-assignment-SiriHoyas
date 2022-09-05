@@ -1,0 +1,26 @@
+{
+  "name": "cssf-course-assignment-sirihoyas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch scss:css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noroff-FED-Campus-Assignments/cssf-course-assignment-SiriHoyas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noroff-FED-Campus-Assignments/cssf-course-assignment-SiriHoyas/issues"
+  },
+  "homepage": "https://github.com/Noroff-FED-Campus-Assignments/cssf-course-assignment-SiriHoyas#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "sass": "^1.54.5",
+    "live-server": "^1.2.2"
+  }
+}
